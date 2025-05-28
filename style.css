@@ -73,7 +73,7 @@ nav {
 /* Seção Hero */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/barbearia.jpeg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./img/barbearia.jpeg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     text-align: center;
@@ -228,15 +228,19 @@ nav {
 }
 
 .gallery-item:nth-child(1) {
-    background-image: url('../img/corte1.1.jpeg');
+    background-image: url('./img/corte1.1.jpeg');
 }
 
 .gallery-item:nth-child(2) {
-    background-image: url('../img/corte2.1.jpeg');
+    background-image: url('./img/corte2.1.jpeg');
 }
 
 .gallery-item:nth-child(3) {
-    background-image: url('../img/barbearia2.jpeg');
+    background-image: url('./img/barbearia2.jpeg');
+}
+
+.gallery-item:nth-child(4) {
+    background-image: url('./img/corte3.jpeg');
 }
 
 /* Seção Sobre */
